@@ -19,15 +19,6 @@ frinx-openconfig-network-instance:network-instances/network-instance/{{vsicp_ni_
                 "type": "L2VSICP" //new NI type
                 "enabled": true
             }
-            "connection-points": {
-                "connection-point": [
-                    {
-                        "config": {
-                            "connection-point-id": "{{vsicp_ni_name}}"
-                        } 
-                    }
-                ]
-            }
             "vlans": {
                 "vlan": [
                     {
